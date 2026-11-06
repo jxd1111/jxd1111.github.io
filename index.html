@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xiedong Jiang | Huazhong University of Science and Technology</title>
+  <meta name="description" content="Personal homepage of Xiedong Jiang, Master's student at the School of Computer Science and Technology, Huazhong University of Science and Technology.">
+  <style>
+    :root {
+      --text: #1f2933;
+      --muted: #5f6b7a;
+      --accent: #0b5fff;
+      --line: #e3e8ef;
+      --bg: #ffffff;
+      --soft: #f6f8fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "PingFang SC",
+        "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 24px 40px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .avatar {
+      flex: 0 0 auto;
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      color: var(--accent);
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 34px;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--text);
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .affiliation {
+      margin: 3px 0 6px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .contact {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    section {
+      padding-top: 28px;
+      margin-top: 4px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    p { margin: 0 0 12px; }
+
+    .entry-title {
+      margin: 0;
+      font-weight: 600;
+    }
+
+    .entry-sub {
+      margin: 2px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 560px) {
+      .page { padding-top: 36px; }
+      .hero { align-items: flex-start; gap: 16px; }
+      .avatar { width: 64px; height: 64px; font-size: 20px; }
+      h1 { font-size: 27px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">XJ</div>
+      <div>
+        <h1>Xiedong Jiang</h1>
+        <p class="subtitle">Master's Student in Computer Science</p>
+        <p class="affiliation">
+          School of Computer Science and Technology<br>
+          Huazhong University of Science and Technology
+        </p>
+        <!-- Keep this email visible as plain text for OpenReview verification. -->
+        <p class="contact">
+          Email: <a href="mailto:m202574015@hust.edu.cn">m202574015@hust.edu.cn</a>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a master's student at the School of Computer Science and Technology,
+        Huazhong University of Science and Technology, advised by
+        Prof. Xiang Xiang.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p class="entry-title">Huazhong University of Science and Technology</p>
+      <p class="entry-sub">
+        School of Computer Science and Technology &middot; Master's Student
+      </p>
+    </section>
+
+    <section>
+      <h2>Advisor</h2>
+      <p>Prof. Xiang Xiang</p>
+    </section>
+
+    <footer>
+      Last updated: November 2026
+    </footer>
+  </main>
+</body>
+</html>
